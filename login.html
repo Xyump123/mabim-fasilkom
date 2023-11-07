@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MABIM - LOGIN</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+            background-size: 400% 400%;
+            animation: gradient 15s ease infinite;
+            height: 100vh;
+        }
+        @keyframes gradient {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <div class="warp">
+            <div class="bg-login">         
+                <h1>FORM LOGIN</h1>
+                <form name="login">
+                    <input type="text" placeholder="USERNAME" id="username" name="username"><br>
+                    <input type="password" placeholder="PASSWORD" id="password" name="password"><br>
+                    <input type="button" value="LOGIN" onclick="Login()">
+                    <a href="index.html">KEMBALI</a><br>
+                    <audio src="media/die for you.mpeg" controls></audio>
+                </form>
+                <footer><h3>&copy; Fauzan Fachrul Rozy</h3></footer>
+            </div>
+        </div>
+    </center>
+    <script src="scirpt.js"></script>
+</body>
+</html>
